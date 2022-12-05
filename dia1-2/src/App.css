@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* background-color: green; */
+  /* background-image: url("../src/img/pexels-photo-1303098.jpeg"); */
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* .gifts-container {
+} */
