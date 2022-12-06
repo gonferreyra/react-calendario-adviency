@@ -1,0 +1,60 @@
+.background {
+  background-image: url("../../assets/pexels-photo-1303098.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .giftBoxContainer {
+    border: 1px solid #6a6a6a;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 258px;
+
+    h1 {
+      margin: 1rem auto;
+    }
+  }
+
+  .giftForm {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem auto;
+
+    input {
+      border-radius: 5px;
+      border: 1px solid #6a6a6a;
+      background: transparent;
+      padding: 0 10px;
+    }
+
+    button {
+      width: 40px;
+      height: 30px;
+      border-radius: 5px;
+      border: none;
+      background-color: #d10e0e;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .gifts {
+    .gifts__p {
+      margin: 1rem 0;
+      font-weight: 600;
+    }
+  }
+
+  .btnDelete {
+    width: 100%;
+    background-color: #d10e0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+}
