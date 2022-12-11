@@ -1,0 +1,23 @@
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  font-weight: 600;
+
+  img {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #d10e0e;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+  }
+}
