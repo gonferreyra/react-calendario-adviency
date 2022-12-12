@@ -1,0 +1,56 @@
+.background {
+  background-image: url("../../assets/pexels-photo-1303098.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box__container {
+    border: 1px solid #6a6a6a;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 350px;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+
+    // @media screen and (min-width: 600px) {
+    //   width: 400px;
+    // }
+
+    h1 {
+      margin: 1rem auto;
+    }
+
+    .box__button__modal {
+      background-color: #d10e0e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      height: 30px;
+      cursor: pointer;
+      padding: 5px 10px;
+      align-self: center;
+    }
+
+    .gifts {
+      .gifts__p {
+        margin: 1rem 0;
+        font-weight: 600;
+      }
+    }
+
+    .box__button {
+      width: 100%;
+      background-color: #d10e0e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}

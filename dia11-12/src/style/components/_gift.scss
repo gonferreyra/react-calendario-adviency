@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  font-weight: 600;
+
+  img {
+    width: 70px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .p__name {
+    text-transform: uppercase;
+  }
+
+  .p__qty {
+    color: #606060;
+  }
+
+  .p__owner {
+    color: #606060;
+  }
+
+  button {
+    background-color: #d10e0e;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+  }
+}
