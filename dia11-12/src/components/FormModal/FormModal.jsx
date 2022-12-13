@@ -48,7 +48,7 @@ const FormModal = ({ modalIsOpen, setModalIsOpen, gifts, addGift }) => {
       <input
         type="text"
         name="name"
-        value={gift.name}
+        value={name}
         placeholder="Name"
         onChange={handleInputChange}
       />
