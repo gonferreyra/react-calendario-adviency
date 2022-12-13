@@ -1,14 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import { useForm } from "../../hooks/useForm";
 
 const FormModal = ({ modalIsOpen, setModalIsOpen, gifts, addGift }) => {
-  const [gift, handleInputChange, reset] = useForm({
+  const [gift, setGift, handleInputChange, reset] = useForm({
     id: "",
     name: "",
     url: "",
     owner: "",
     quantity: 1,
   });
+
+  console.log(gift);
 
   const { name, url, owner, quantity } = gift;
 
@@ -45,7 +48,7 @@ const FormModal = ({ modalIsOpen, setModalIsOpen, gifts, addGift }) => {
       <input
         type="text"
         name="name"
-        value={name}
+        value={gift.name}
         placeholder="Name"
         onChange={handleInputChange}
       />
