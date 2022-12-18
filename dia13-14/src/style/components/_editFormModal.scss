@@ -1,0 +1,43 @@
+.form__edit {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 350px;
+    // height: 250px;
+    position: absolute;
+    top: calc(50% - 176.5px);
+    left: calc(50% - 210px);
+    background-color: green;
+    padding: 1.5rem;
+  
+    @media screen and (min-width: 600px) {
+      width: 420px;
+    }
+  
+    h2 {
+      text-align: center;
+      color: white;
+    }
+  
+    input {
+      padding: 5px 5px;
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+      background-color: #d10e0e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      height: 30px;
+      cursor: pointer;
+    }
+  
+    .btn__return {
+      background: #2c2c2c;
+    }
+  }
+  
