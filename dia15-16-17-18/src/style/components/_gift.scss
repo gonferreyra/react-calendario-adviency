@@ -1,0 +1,46 @@
+table {
+  margin: 0.2rem 0;
+  p {
+    font-weight: 400;
+  }
+}
+
+td img {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.gift__content {
+  padding: 0 1rem;
+  width: 70%;
+
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+.gift__buttons {
+  display: flex;
+
+  button {
+    margin: 0 5px;
+    padding: 9px 7px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .gift__btn--edit {
+    background: #679b67;
+    color: white;
+  }
+
+  .gift__btn--delete {
+    background: #e52f2f;
+    color: white;
+  }
+}

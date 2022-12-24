@@ -1,0 +1,61 @@
+.background {
+  background-image: url("../../img/istockphoto-1287673841-612x612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__add__btn {
+  height: 25px;
+  background-color: #679b67;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.box__container {
+  border: 2px solid white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  background: #d6e1d9;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.box__delete__btn {
+  height: 25px;
+  background-color: #e52f2f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.gifts__total {
+  margin: 5px auto 10px;
+
+  p {
+    font-weight: 400;
+  }
+}
+
+.gift__table__container {
+  border-bottom: 1px solid black;
+  margin: 0.5rem 0;
+}
+
+.gifts__p {
+  margin: 1rem 0;
+  font-weight: 600;
+}

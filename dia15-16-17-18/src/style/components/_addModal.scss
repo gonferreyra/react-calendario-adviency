@@ -1,0 +1,54 @@
+.form__container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 141px);
+  top: calc(50% - 245.5px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+}
+
+.form__input__box {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  input {
+    height: 25px;
+    width: 250px;
+  }
+}
+
+.form__btn__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  button {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn__add {
+    background-color: #679b67;
+    color: white;
+  }
+
+  .btn__cancel {
+    background-color: #e52f2f;
+    color: white;
+  }
+}
